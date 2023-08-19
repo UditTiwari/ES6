@@ -4,7 +4,7 @@
 var sum = function (a){
 console.log("current num" + a);
 
-var c =4 ; //lexical var/scope
+var c =4 ; //lexical scope
 
 return function (b){
     return a+b+c
